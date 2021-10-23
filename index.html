@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="wrapper">
+<div class="wrapper">
 <!--Шапка сайта-->
+    <section class="hero">
+        <div class="container"></div>
         <header class="header">
-        <div class="container">
-            <a href="" class="logo">
-                <img src="" alt="Логотип" class="logo__pic">
+            <a href="https://irmak9.github.io/my_web_air/" class="logo">
+                <img src="logo.png" alt="Логотип" class="logo__pic">
             </a>
             <nav class="menu">
                 <ul class="menu__list">
@@ -37,26 +42,25 @@
             <adress class="contacts">
                 <a href="tel:+78007003030" title="ПН-ВС с 9.00-20.00, Обед с 14.00-14.30" class="contacts__tell"> 8(800)700 3030 </a>
             </adress>
-        </div>
         </header>
-        <main class="main-content">
-<!--Основной заголовок + кнопка-->
-        <section class="general">
-        <div class="general__container">
-            <h1 class="general__title">Авторские туры по Азии</h1>
-            <h4 class="general__title2">Открой для себя Азию</h4>
-            <div class="general__btn">
-                <a href="#" class="general__btn btn">Подробнее</a>
-            </div> 
         </div>
-        </section>      
+        <div class="general">
+            <div class="general__container">
+                <h1 class="general__title">Авторские туры по Азии</h1>
+                <h4 class="general__title-two">Открой для себя Азию</h4>
+                <div class="general__btn">
+                    <a href="#" class="general__btn btn">Подробнее</a>
+                </div> 
+            </div>
+        </div>
+    </section>
+        
+    <main class="main-content">
 <!--Блок: Туры-->
             <section class="tours"> 
-            <div class="tours__container">
-                <div class="middle">
-                    <h2 class="middle__title"> Горящие туры</h2>
-                    <img src="#" alt="" class="middle__pic">
-                </div>
+            <div class="container">
+                <h2 class="tours__title-block"> Горящие туры</h2>
+                <img src="#" alt="" class="tours__pic-img">
                 <ul class="tours__list">
                     <li class="tours__item">
                         <div class="tours__pic-wrap">
@@ -135,9 +139,9 @@
             </section>
 
 <!--Блок: Виды акций-->
-            <section class="sale__sect">
-            <div class="sale__container">
-                <div class="sale">
+            <section class="sale">
+            <div class="container">
+                <div class="sale__sect">
                     <h2 class="sale__title"> Новости и акции</h2>
                 </div>
                 <ul class="sale__list">
@@ -183,22 +187,22 @@
             
 <!--Блок: О нас-->
             <section class="info">
-            <div class="info__container">
+            <div class="container">
                 <img src="" alt="" class="info__pic">
                 <div class="info__txt">
-                    <img src="" alt="" class="info__pic2">
+                    <img src="" alt="" class="info__pic-img">
                     <h2 class="info__title">О нас</h2>
                     <h4 class="info__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem explicabo est qui quidem nostrum totam laudantium iste facilis sint assumenda? Voluptatum explicabo tempora, fugiat voluptas ea aspernatur rerum modi voluptates.</h4>
                 </div>
                 <div class="info__key">
-                    <a href="#" class="info__key-1">Подробнее</a>
+                    <a href="#" class="info__key-link">Подробнее</a>
                 </div>
             </div>
             </section>
         </main>
 <!--Блок: Шапка - низ-->
              <footer class="end"> 
-                <div class="end__container"> 
+                <div class="container"> 
                     <a href="" class="logo">
                         <img src="" alt="Логотип" class="logo__pic">
                     </a>
@@ -247,14 +251,14 @@
                             </li>
                         </ul>
                      </div>
-                    <adress class="contacts2">
-                        <div class="contacts2__info">
+                    <adress class="contacts__end">
+                        <div class="contacts__end-info">
                         Бесплатный звонок по Росcии
                         </div>
-                        <a href="tel:+78007003030"class="contacts2__tell"> 8(800)700 3030 </a>
+                        <a href="tel:+78007003030"class="contacts__end-tell"> 8(800)700 3030 </a>
                     </adress>
                 </div> 
             </footer>
-    </div>
+</div>
 </body>
 </html>
