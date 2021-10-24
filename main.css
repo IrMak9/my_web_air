@@ -1,0 +1,436 @@
+* {
+    font-family:'Open Sans', sans-serif;
+}
+body {
+    background:  #001821;
+    color: #FFFFFF;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 1.42;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+   }
+
+a {
+    color: inherit;
+}
+header {
+    height: 94px;
+    position: relative;
+    margin-bottom: 130px;
+
+}
+.logo__pic {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 0px;
+}
+
+.contacts {
+    position: absolute;
+    top:26.64px;
+    right:0px;
+    text-align: right;
+
+}
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+.menu {
+    position: absolute;
+    top: 42px;
+    left: 164px;
+    }
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,h2,h3,h4 {
+    margin: 0;
+    font-weight: normal;
+
+}
+* {
+    box-sizing: border-box;
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+}
+.menu__name {
+    font-size: 14px; 
+    text-decoration: none;
+}
+.menu__name:hover{
+    text-decoration: underline;
+}
+.contacts {
+    font-style: normal;
+    font-size: 26px;
+    text-decoration: none;
+}
+.contacts__work {
+    font-size: 13px; 
+    text-decoration: underline;
+    margin-bottom: 4px;
+}
+.contacts__tell {
+    text-decoration: none;
+}
+.contacts__tell:hover {
+    text-decoration: underline;
+}
+.general__title {
+    width: 511px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 27px;
+}
+.general__title-two {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 52px;
+}
+.btn {
+    background: #F5170E;
+    border-radius: 40px;
+    padding: 18px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+.btn:hover {
+box-shadow: 0 0 30 0;
+text-decoration: underline;
+border: 2px solid DeepSkyBlue;
+}
+.section {
+margin-bottom: 125px;
+}
+.tours__title-block, .sale__title {
+    display: inline-block;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 51px;
+    font-weight: bold;
+    margin-top: 264px;
+}
+.tours__pic-img {
+    display: inline-block;
+    margin-left: 12px;
+}
+.tours__item {
+    min-height: 304px;
+    background:  #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    margin-right: 21px;
+    margin-bottom: 127px;
+    width: 362px;
+    vertical-align: top;
+}
+.tours__pic-wrap{
+    min-height: 144px;
+    margin-bottom: 33px;
+}
+.tours__item:last-child{
+    margin-right: 0;
+}
+.tours__title {
+    font-size: 24px;
+    line-height: 1.1;
+    margin: 0px 0px 23px 22px;
+    font-weight: bold;
+    color: #000000;
+}
+.tours__serve-item{
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 26px;
+    font-weight: 400;
+    color: #666666;
+    display: inline-block;
+}
+.tours__item-srerve {
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 26px;
+    font-weight: 400;
+    color: #666666;
+    display: inline-block;
+}
+.tours__serve-pic {
+    display: inline-block;
+    margin-left: 21px;
+}
+.tours__serve-descr {
+    display: inline-block;
+    margin-left: 10px;
+}
+.descr {
+   color: #303030;
+   font-size: 14px;
+    line-height: 1.1;
+    font-weight: 400;
+    margin: 0px 16px 21px 22px;
+    text-align: left;
+
+}
+.tours__btn {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+.tours__btn-b {
+    background: #FFFFFF;
+    border-radius: 35px;
+    padding: 18px 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 14px  ;
+    line-height: 1.1;
+    border: 2px solid #F5170E;
+    color: #F5170E;
+    text-decoration: none;
+    
+    
+}
+.tours__btn-b:hover {
+    box-shadow: 0 0 30 0;
+    text-decoration: underline;
+    border: 2px solid DeepSkyBlue;
+}
+.tours__btn:hover {
+     box-shadow: 0 0 30 0;
+    text-decoration: underline;
+    border: 2px solid DeepSkyBlue;
+}
+.tours__btn-cont {
+    width: 135px;
+    height: 65px;
+    margin-top: 44px;
+}
+.sale__item {
+ display: inline-block;
+ width: 549px;
+ vertical-align: top;
+ position: relative;
+ border-radius: 4px;
+ overflow: hidden;
+ margin-bottom: 58px;
+ margin-left: 25px;
+}
+.sale__item:nth-child(1) {
+    margin-left: 0px;
+}
+
+.sale__item:nth-child(2) {
+    margin-right: 0px;
+}
+.sale__item-pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sale__item-container {
+    position: absolute;
+    vertical-align: top;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 31px;
+    padding-bottom: 47px;
+    width: 517px;
+}
+.sale__date {
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.sale__title-new {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 4px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+.sale__info {
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.pager {
+    text-align: center;
+    margin-bottom: 152px;
+    
+}
+.pager__display, .pager__list {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.pager__display {
+    margin-right: 36px;
+ 
+}
+.pager__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 24px;
+}
+.pager__number {
+   
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    line-height: 32px;
+}
+
+.pager__number-active {
+    color: #F5170E;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pager__active {
+    background:  #FFFFFF;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 32px;
+}
+.pager__number:hover {
+    text-decoration: underline;
+    
+}
+.pager__number-active{
+    text-decoration: underline;
+    
+}
+.info__pic-pic::before {
+    content:"";
+    height:505px ;
+    width: 490px;
+    display: block;
+    background: url(gates.png) center center/cover no-repeat;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+.info__txt {
+    height:455px ;
+    width: 785px;
+    display: inline-block;
+    background: url(mountains.png);
+    padding: 70px 80px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -150px;
+    margin-top: 100px;
+    margin-bottom: 53px;
+}
+.info__title {
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 37px;
+    font-weight: 700;
+    color: #060606;
+}
+.info__info {
+    color: #060606;
+    margin-bottom: 61px;
+}
+.end {
+    height: 146px;
+    width: 1140px;
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 389px;
+}
+.logo__pic-end {
+    display: nline-block;
+    position: absolute;
+    left: 0px;
+    margin-right: 79px;
+    bottom: 65px;
+ }
+ .menu__end {
+    position: absolute;
+    bottom: 68px;
+    left: 164px;
+}
+.menu__item-end {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+}
+.menu__item-end {
+    font-size: 14px; 
+    text-decoration: none;
+}
+.menu__item-end:hover{
+    text-decoration: underline;
+}
+.social {
+    position: absolute;
+    bottom: 61px;
+    margin-left: 702px;
+}
+.social__item {
+    display: inline-block;
+}
+.social__item-pic {
+    margin-right: 10px;
+}
+.contacts__end {
+    position: absolute;
+    bottom:57px;
+    right:0px;
+    text-align: right;
+}
+.contacts__end-tell {
+    font-size: 26px;
+    font-style: normal;
+    text-decoration: none;
+}
+.contacts__end-info {
+    font-size: 11px;
+    font-style: normal;
+}
+.contacts__end-info:hover {
+    text-decoration: underline;
+}
+.end__line {
+    height: 4px ;
+    width: 1140px;
+    border: 1px solid #FFFFFF;
+    opacity: .3;
+    display: block;
+    position: absolute;
+    margin-left: 0px;
+}
+.wrapper {
+    background: url(1.png) center top no-repeat, url(2.png) center bottom no-repeat;
+
+}
