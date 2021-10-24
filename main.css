@@ -116,13 +116,21 @@ border: 2px solid DeepSkyBlue;
 .section {
 margin-bottom: 125px;
 }
-.tours__title-block, .sale__title {
+.tours__title-block {
     display: inline-block;
     font-size: 36px;
     line-height: 1.1;
     margin-bottom: 51px;
     font-weight: bold;
     margin-top: 264px;
+}
+.sale__title{
+    display: inline-block;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 51px;
+    font-weight: bold;
+    margin-top: 0px;
 }
 .tours__pic-img {
     display: inline-block;
