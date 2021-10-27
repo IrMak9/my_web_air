@@ -15,7 +15,7 @@ a {
     color: inherit;
 }
 header {
-    height: 94px;
+    min-height : 94px;
     position: relative;
     margin-bottom: 130px;
 
@@ -39,9 +39,11 @@ header {
     width: 1140px;
 }
 .menu {
-    position: absolute;
-    top: 42px;
-    left: 164px;
+    display: inline-block;
+    margin-top: 42px;
+    margin-left: 164px;
+    top:50%;
+    transform: translateY(-50%);
     }
 ul {
     padding: 0;
@@ -100,19 +102,22 @@ h1,h2,h3,h4 {
     margin-bottom: 52px;
 }
 .btn {
-    background: #F5170E;
-    border-radius: 40px;
-    padding: 18px 40px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
    
 }
-.btn:hover {
+.general__btn{
+    background: #F5170E;
+    border-radius: 40px;
+    padding: 18px 40px;
+}
+
+.general__btn:hover {
 box-shadow: 0 0 30 0;
 text-decoration: underline;
 border: 2px solid DeepSkyBlue;
-}
+} 
 .section {
 margin-bottom: 125px;
 }
@@ -186,41 +191,37 @@ margin-bottom: 125px;
 }
 .descr {
    color: #303030;
-   font-size: 14px;
+    font-size: 14px;
     line-height: 1.1;
     font-weight: 400;
-    margin: 0px 16px 21px 22px;
+    margin: 0px 16px 24px 22px;
     text-align: left;
 
 }
+.tours__btn-cont {
+    min-height: 63px;
+    padding-bottom: 44px;
+    padding-top: 18px;
+}
 .tours__btn {
     background: #F5170E;
-    border-radius: 35px;
-    padding: 18px 29px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-left: 24px;
-    font-size: 14px;
-    line-height: 1.1;
-    text-decoration: none;
     margin-bottom: 25px;
+    padding: 18px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 25px;
+
 }
 .tours__btn-b {
     background: #FFFFFF;
-    border-radius: 35px;
-    padding: 18px 29px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-left: 24px;
-    font-size: 14px  ;
-    line-height: 1.1;
-    border: 2px solid #F5170E;
     color: #F5170E;
+    padding: 18px 30px;
+    border-radius: 30px;
     text-decoration: none;
-    
-    
+    border:2px solid #F5170E;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 .tours__btn-b:hover {
     box-shadow: 0 0 30 0;
@@ -232,13 +233,10 @@ margin-bottom: 125px;
     text-decoration: underline;
     border: 2px solid DeepSkyBlue;
 }
-.tours__btn-cont {
-    width: 135px;
-    height: 65px;
-    margin-top: 44px;
-}
+
 .sale__item {
  display: inline-block;
+ background: url(plain.png), url(surfer.png);
  width: 549px;
  vertical-align: top;
  position: relative;
@@ -269,6 +267,7 @@ margin-bottom: 125px;
     padding-left: 31px;
     padding-bottom: 47px;
     width: 517px;
+    display: inline-block;
 }
 .sale__date {
     font-size: 16px;
@@ -338,7 +337,7 @@ margin-bottom: 125px;
 }
 .info__pic-pic::before {
     content:"";
-    height:505px ;
+    min-height:505px ;
     width: 490px;
     display: block;
     background: url(gates.png) center center/cover no-repeat;
@@ -370,14 +369,14 @@ margin-bottom: 125px;
     margin-bottom: 61px;
 }
 .end {
-    height: 146px;
+    min-height: 146px;
     width: 1140px;
-    position: absolute;
+    position: relative;
     margin-left: 0px;
     margin-right: 389px;
 }
 .logo__pic-end {
-    display: nline-block;
+    display: block;
     position: absolute;
     left: 0px;
     margin-right: 79px;
@@ -387,6 +386,7 @@ margin-bottom: 125px;
     position: absolute;
     bottom: 68px;
     left: 164px;
+  
 }
 .menu__item-end {
     display: inline-block;
