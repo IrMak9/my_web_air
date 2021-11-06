@@ -77,10 +77,8 @@ position: relative;
 
 }
 .pager__number {
-   
     text-decoration: none;
     font-weight: bold;
-    position: relative;
     line-height: 32px;
 }
 
@@ -91,6 +89,7 @@ position: relative;
 }
 .pager__active:hover{
     border:2px solid DeepSkyBlue;
+    text-decoration: underline;
 } 
 
 .pager__active {

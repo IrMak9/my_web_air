@@ -1,4 +1,4 @@
-.serv__wrapper {
+.wrapper--serv {
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -7,7 +7,7 @@
     
     
 }
-.hero__serv {
+.top {
     display: flex;
     flex-direction: column;
     min-height: 412px;
@@ -15,7 +15,7 @@
     background: url(../../pic/headline.png) center top no-repeat;
     
 }
-.serv__container {
+.container--top {
     flex: 1;
     display: flex;
     flex-direction: column;
